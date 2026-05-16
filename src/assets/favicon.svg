@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Pure black background -->
+  <rect width="512" height="512" rx="64" fill="#000000"/>
+  
+  <!-- Outer gold triangle (large) -->
+  <polygon 
+    points="256,60 470,420 42,420" 
+    fill="none" 
+    stroke="#C8A44E" 
+    stroke-width="28"
+    stroke-linejoin="miter"
+  />
+  
+  <!-- Inner gold triangle (smaller, gives depth) -->
+  <polygon 
+    points="256,130 410,385 102,385" 
+    fill="none" 
+    stroke="#C8A44E" 
+    stroke-width="8"
+    stroke-linejoin="miter"
+    opacity="0.5"
+  />
+  
+  <!-- Gold accent dot at the top -->
+  <circle cx="256" cy="52" r="10" fill="#C8A44E"/>
+  
+  <!-- Subtle gold shine line across the middle -->
+  <line 
+    x1="140" y1="310" 
+    x2="372" y2="310" 
+    stroke="#C8A44E" 
+    stroke-width="3" 
+    opacity="0.3"
+  />
+</svg>

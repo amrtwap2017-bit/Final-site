@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Tight black background -->
+  <rect width="64" height="64" rx="8" fill="#000000"/>
+  
+  <!-- Gold triangle - optimized for small sizes -->
+  <polygon 
+    points="32,8 58,54 6,54" 
+    fill="none" 
+    stroke="#C8A44E" 
+    stroke-width="4"
+    stroke-linejoin="miter"
+  />
+</svg>
